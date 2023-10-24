@@ -1,0 +1,62 @@
+.formWrapper{
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  display: flex;
+  min-width: 0px;
+  width: 480px;
+  padding: 40px;
+}
+
+.wrapper {
+  display: flex;
+  margin: 5rem auto;
+  flex-direction: column;
+  gap: 2rem;
+  width: 300px;
+}
+
+.label {
+  flex-direction: column;
+  display: flex;
+  gap: .2rem;
+  text-align: center;
+}
+
+.input {
+  border-radius: 50px;
+  border: 1px solid var(--clr-primary-10);
+  padding: 1rem;
+  background-color: var(--clr-grey-10);
+}
+
+.btn {
+  padding: 1.2rem;
+  background-color: var(--clr-red-light);
+  border-radius: 10px;
+  border: 2px solid var(--clr-grey-8);
+}
+
+.notValid {
+  border: 2px solid red;
+}
+
+.spanError {
+  color: red;
+  white-space: nowrap;
+  font-size: 1rem
+}
+
+.forErrors{
+  height: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.forErrorsPassword{
+  height: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
